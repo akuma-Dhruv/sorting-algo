@@ -38,3 +38,14 @@ void heapSort(int arr[], int n)
        heapify(arr, i, 0); 
     } 
 } 
+main()
+{
+	int n=0;
+	int a[5]={5,9,3,2,1};
+	heapSort(a,5);
+	while(n<5)
+		{
+			cout<<a[n];
+			n++;
+		}
+}
